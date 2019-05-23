@@ -20,7 +20,7 @@
   document.getElementById("time").innerHTML = jam + ':' + menit;
   document.getElementById("change").innerHTML = c;
   document.getElementById("date").innerHTML = t.toLocaleDateString("en-US", {month: "short", day: "numeric", year: "numeric"});
-  setTimeout(clock, 60000);
+  setTimeout(clock, 1000);
 })();
 
 
